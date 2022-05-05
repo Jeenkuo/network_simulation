@@ -12,12 +12,8 @@
     4.3使用calculate_iway_road_use(data,dict01)计算统计结果,并将结果输入dict01
 6.使用delete_record()函数清理数据库,并将id归零
 
-7.未来尝试在这里补充数据哭建立过程
-
 7.使用mysql语句:select length,count(*) as count from
 (select * from shortest_road where optimization='["MRK", "DY"]') as total
 group by length;
 
 查看优化方法为["MRK","DY"]的length的分布情况
-
-8.
